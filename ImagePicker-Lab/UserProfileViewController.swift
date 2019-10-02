@@ -10,9 +10,16 @@ import UIKit
 
 class UserProfileViewController: UIViewController {
 
+    // MARK: Outlets
+    
+    // MARK: Properties
+    
+    // MARK: Lifecycle Methods
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
+    // MARK: Private Methods
     
 
 
