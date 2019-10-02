@@ -13,6 +13,7 @@
 		A56ECE36234538F00051B671 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A56ECE35234538F00051B671 /* Assets.xcassets */; };
 		A56ECE39234538F00051B671 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A56ECE37234538F00051B671 /* LaunchScreen.storyboard */; };
 		A56ECE44234538F00051B671 /* ImagePicker_LabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56ECE43234538F00051B671 /* ImagePicker_LabTests.swift */; };
+		A56ECE4F23453C770051B671 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56ECE4E23453C770051B671 /* UserProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		A56ECE3F234538F00051B671 /* ImagePicker-LabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ImagePicker-LabTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A56ECE43234538F00051B671 /* ImagePicker_LabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker_LabTests.swift; sourceTree = "<group>"; };
 		A56ECE45234538F00051B671 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A56ECE4E23453C770051B671 /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		A56ECE2B234538E80051B671 /* ImagePicker-Lab */ = {
 			isa = PBXGroup;
 			children = (
+				A56ECE4E23453C770051B671 /* UserProfileViewController.swift */,
 				A56ECE2C234538E80051B671 /* AppDelegate.swift */,
 				A56ECE2E234538E80051B671 /* SceneDelegate.swift */,
 				A56ECE32234538E80051B671 /* Main.storyboard */,
@@ -198,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A56ECE2D234538E80051B671 /* AppDelegate.swift in Sources */,
+				A56ECE4F23453C770051B671 /* UserProfileViewController.swift in Sources */,
 				A56ECE2F234538E80051B671 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
