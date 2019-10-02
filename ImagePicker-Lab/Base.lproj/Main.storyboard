@@ -26,6 +26,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eim-QC-mHP">
+                                <rect key="frame" x="0.0" y="809" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="BTL-0e-q25"/>
+                                    <barButtonItem systemItem="add" id="Hdt-ad-AtY"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="lYz-lH-OvU"/>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="DXy-FB-Mib"/>
